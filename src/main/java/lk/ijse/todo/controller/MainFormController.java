@@ -58,4 +58,17 @@ public class MainFormController {
         this.root.getChildren().clear();
         this.root.getChildren().add(node);
     }
+
+    @FXML
+    void btnLogoutOnAction(ActionEvent event) throws IOException {
+        Parent rootNode = FXMLLoader.load(this.getClass().getResource("/view/login_form.fxml"));
+        Scene scene = new Scene(rootNode);
+
+        root.getChildren().clear();
+        Stage primaryStage = (Stage) root.getScene().getWindow();
+
+        primaryStage.setScene(scene);
+        primaryStage.centerOnScreen();
+        primaryStage.setTitle("Login");
+    }
 }
