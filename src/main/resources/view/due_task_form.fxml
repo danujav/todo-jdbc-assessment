@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane fx:id="root" prefHeight="478.0" prefWidth="542.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="root" prefHeight="478.0" prefWidth="542.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.todo.controller.DueTaskFormController">
    <children>
       <TableView fx:id="tblDue" layoutX="11.0" layoutY="63.0" prefHeight="407.0" prefWidth="520.0">
         <columns>
